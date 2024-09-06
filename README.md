@@ -25,6 +25,7 @@ The models are stored in a dictionary for later evaluation.
 Predictions are made on the test dataset using the trained SVM models.
 Accuracy scores are calculated for each target variable, comparing the predicted values to the ground truth labels from the test set.
 F1 scores and confusion matrices can be used to evaluate the performance of each model further.
+Employing a SVM Support Vector Machine model, we achieved notable accuracies on real-world test data, with scores ranging from 66.40% to 76.52% across four proficiency levels. Corresponding F1 scores further validate the model's effectiveness, with scores ranging from 55.72% to 71.23%. 
 # Additional Notes:
 The LibriSpeech ASR corpus serves as the data source, which provides a large variety of speech samples with diverse accents and reading styles, allowing the model to generalize well to real-world data.
 The model achieves notable accuracy, with F1 scores validating its ability to predict reading proficiency across different levels.
